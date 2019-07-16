@@ -1,0 +1,227 @@
+body {
+  background-color: #f7f7f7;  
+  margin: 0px auto;
+  background: url("./bg-image.jpg");
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color:#204969;
+  padding: 0;
+  margin-top: 20px;
+  box-shadow: 0 4px 4px rgba(0,0,0,.12);
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+  box-shadow: 4px 4px 4px rgba(0,0,0,.12);
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.active {
+  background-color:#08ffc8;
+}
+.redButton{
+  background-color: #ff0000;
+}
+.defaultButton {
+  background-color: #204969;
+}
+.defaultButton,.redButton{
+    color: #fff;
+    width: 100%;
+    padding: 4px 3px 5px 3px;
+    outline: none;
+    border: 0px;
+    line-height: 21px;
+    border-radius: 5px;
+}
+.chart text {
+  font-size: 11px;
+}
+.details {
+  background-color: lightgrey;
+  font-size: 12px;
+  position: relative;
+  padding: 10px;
+  left: 100px;
+  top: -550px;
+  max-width: 150px;
+  opacity: 0;
+  text-align: left;
+}
+h3{
+  color: #f8fdff;
+  padding-left: 20px;
+  padding-top: 20px;
+  opacity: .8;
+  font-weight: 400;
+  font-size: 20px;
+}
+.top{
+  margin-bottom: 10px;
+  background-color: #3f5175;
+  border-radius:4px;
+  height: 400px;
+  box-shadow: 1px 1px 1px 0px rgba(37,41,51,1);
+}
+.bottom-left{
+  background-color: #3f5175;
+  border-radius: 4px;
+  height: 400px;
+  box-shadow: 1px 1px 1px 0px rgba(37,41,51,1);
+}
+.bottom-right{
+  background-color: #3f5175;
+  border-radius: 4px;
+  height: 400px;
+  box-shadow: 1px 1px 1px 0px rgba(37,41,51,1);
+}
+.shadow {
+  -webkit-filter: drop-shadow( 0px 2px 2px rgba(0,0,0,.3) );
+  filter: drop-shadow( 0px 2px 2px rgba(0,0,0,.3) );
+}
+.pad{
+  padding:20px;
+}
+.browser-legend{
+  font-size:14px;
+  opacity:.8;
+}
+.bottom-left-svg{
+  padding-top:40px;
+  text-align: center;
+}
+.bottom-right-svg{
+  text-align: center;
+}
+.line {
+  fill: none;
+  stroke: #7dc7f4;
+  stroke-width: 5px;
+}
+.axis{
+  fill:#bbc7d9;
+  opacity: 1;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: none;
+  shape-rendering: crispEdges;
+}
+.axis text {
+  font-size: 14px;
+}
+.y-grid .tick{
+  stroke: #4b5f87;
+  opacity: 1;
+}
+.card-header {
+  padding: 0px;
+}
+.card-header button {
+  width: 100%;
+}
+.accordion {
+  margin-top: 20px;
+}
+.accordion>.card:last-of-type {
+  border: 1px solid #dadada;
+}
+.form-check {
+  line-height: 30px;
+}
+.form-check-label {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 500;
+  color: #204968;
+}
+#default-checkbox {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.card-header .btn-link {
+  font-weight: 500;
+  color: #204969;
+  text-decoration: none;
+  text-align: left;
+  font-size: 20px;
+}
+.literal-box input {
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid #dadada;
+  padding: 5px;
+  outline: none;
+}
+#pageDropDown {
+  display: none;
+}
+input[type=checkbox] {
+  cursor: pointer;
+}
+.react-bs-table-add-btn, .react-bs-table-del-btn {
+  width: 100px;
+  height: 32px;    
+  border-radius: 5px !important;
+  background-color: #204969 !important;
+  color: #fff;
+  border-color: #204969;
+}
+.react-bs-table-add-btn:hover, .react-bs-table-del-btn:hover {
+  background-color: #204969d1 !important;
+  border-color: #204969d1;
+  color: #fff;
+}
+.tableSearch {
+  padding-left: 0px;
+}
+.right-pull, .right-pull .btn-group {
+  float: right;
+}
+.left-pull {
+  float: left;
+}
+.react-bs-table-add-btn {
+  margin-right: 15px;
+}
+.padding0 {
+  padding: 0px;
+}
+.page-item.active .page-link {
+  background-color: #204969;
+    border-color: #204969;
+}
+.page-link {
+  color:  #204969;
+}
+.react-bs-container-body table tbody tr:nth-child(odd) {
+  background: #fff7f7;
+}
+.react-bs-container-body table tbody tr:nth-child(even) {
+  background: #f7f7f7;
+}
+.react-bs-container-body table tbody tr:hover {
+background: #dee2e6;
+}
+.modal-title {
+  float: left;
+}
